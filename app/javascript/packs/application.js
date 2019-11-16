@@ -18,3 +18,12 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 //= require jquery
 //= require semantic-ui
+//= require rails-ujs
+//= require activestorage
+//= require turbolinks
+//= require_tree .
+ 
+ 
+$(document).ready(function(){
+    $('.ui.dropdown') .dropdown();
+   });
